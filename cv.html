@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Franco Sartori</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a202c;
+            color: #e2e8f0;
+        }
+        .card {
+            background-color: #2d3748;
+            border-radius: 0.75rem;
+            border: 1px solid #4a5568;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+        }
+        .tag {
+            background-color: #4a5568;
+            color: #cbd5e0;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        .icon-link {
+            transition: color 0.3s ease;
+        }
+        .icon-link:hover {
+            color: #63b3ed;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+
+    <div class="max-w-4xl mx-auto">
+        <!-- Header Section -->
+        <header class="flex flex-col sm:flex-row items-center justify-between mb-10">
+            <div>
+                <h1 class="text-4xl sm:text-5xl font-bold text-white">Franco Sartori</h1>
+                <h2 class="text-xl sm:text-2xl font-medium text-blue-400 mt-1">Coordinador de IT</h2>
+            </div>
+            <div class="flex items-center space-x-4 mt-4 sm:mt-0 text-gray-400">
+                <a href="https://www.linkedin.com/in/franco-sartori-it/" target="_blank" class="icon-link text-2xl"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:francosarto11@gmail.com" class="icon-link text-2xl"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+5493517583423" class="icon-link text-2xl"><i class="fas fa-phone"></i></a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <!-- Left Column -->
+            <div class="md:col-span-2 space-y-8">
+                <!-- Professional Summary -->
+                <div class="card p-6">
+                    <h3 class="flex items-center text-2xl font-bold text-white mb-4"><i class="fas fa-user-tie mr-3 text-blue-400"></i>Resumen Profesional</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Coordinador de IT con sólida experiencia en la gestión de equipos, supervisión de tareas y dirección de proyectos de desarrollo y automatización. Me especializo en la creación de aplicaciones y soluciones a medida para optimizar procesos empresariales. Soy un profesional proactivo, enfocado en la capacitación continua y con excelentes habilidades de comunicación y resolución de problemas para alcanzar los objetivos del equipo y la organización.
+                    </p>
+                </div>
+                
+                <!-- Work Experience -->
+                <div class="card p-6">
+                    <h3 class="flex items-center text-2xl font-bold text-white mb-6"><i class="fas fa-briefcase mr-3 text-blue-400"></i>Experiencia Laboral</h3>
+                    <div class="space-y-6">
+                        <!-- Job 1 -->
+                        <div>
+                            <div class="flex justify-between items-baseline">
+                                <h4 class="text-lg font-semibold text-white">Coordinador de IT | Administrador de Sistemas</h4>
+                                <p class="text-sm text-gray-400">2023 - Actualidad</p>
+                            </div>
+                            <p class="text-md text-blue-300 mb-2">Grupo Bacar</p>
+                            <ul class="list-disc list-inside text-gray-300 space-y-1 pl-2">
+                                <li>Liderazgo y coordinación del área de sistemas.</li>
+                                <li>Gestión de personal a cargo.</li>
+                                <li>Dirección de proyectos de desarrollo y automatización.</li>
+                                <li>Responsable del soporte técnico (Help Desk) e infraestructura.</li>
+                            </ul>
+                        </div>
+                         <!-- Job 2 -->
+                        <div>
+                            <div class="flex justify-between items-baseline">
+                                <h4 class="text-lg font-semibold text-white">Desarrollador Web y de Aplicaciones Freelance</h4>
+                                <p class="text-sm text-gray-400">2022 - Actualidad</p>
+                            </div>
+                            <p class="text-md text-blue-300 mb-2">Independiente</p>
+                            <p class="text-gray-300 mb-2">Desarrollo de proyectos personalizados para clientes. Proyectos destacados:</p>
+                            <ul class="list-disc list-inside text-gray-300 space-y-1 pl-2">
+                                <li>Aplicación web para gestión de turnos.</li>
+                                <li>Sitio web para influencer "Putato".</li>
+                                <li>Sistema de gestión de tickets (en desarrollo).</li>
+                                <li>Sistema de facturación y control de stock (en desarrollo).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="space-y-8">
+                <!-- Skills -->
+                <div class="card p-6">
+                    <h3 class="flex items-center text-2xl font-bold text-white mb-4"><i class="fas fa-code mr-3 text-blue-400"></i>Habilidades</h3>
+                    <div class="mb-4">
+                        <h4 class="font-semibold text-blue-300 mb-2">Lenguajes y Tecnologías</h4>
+                        <div class="flex flex-wrap gap-2">
+                           <span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JavaScript</span> <span class="tag">TypeScript</span> <span class="tag">NodeJS</span> <span class="tag">MySQL</span> <span class="tag">CMD</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <h4 class="font-semibold text-blue-300 mb-2">Infraestructura y Redes</h4>
+                         <div class="flex flex-wrap gap-2">
+                           <span class="tag">Administración de redes</span> <span class="tag">Hardware</span> <span class="tag">Omada</span> <span class="tag">Windows</span>
+                        </div>
+                    </div>
+                     <div>
+                        <h4 class="font-semibold text-blue-300 mb-2">Profesionales</h4>
+                         <div class="flex flex-wrap gap-2">
+                           <span class="tag">Gestión de Proyectos</span> <span class="tag">Liderazgo de Equipos</span> <span class="tag">Comunicación</span> <span class="tag">Resolución de Problemas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="card p-6">
+                    <h3 class="flex items-center text-2xl font-bold text-white mb-4"><i class="fas fa-graduation-cap mr-3 text-blue-400"></i>Educación</h3>
+                    <ul class="space-y-3 text-gray-300">
+                        <li><strong>Desarrollo Web Full Stack</strong><br><span class="text-sm text-gray-400">UTN, Buenos Aires</span></li>
+                        <li><strong>Desarrollo Web Front End</strong><br><span class="text-sm text-gray-400">Digital House</span></li>
+                        <li><strong>Product Manager</strong><br><span class="text-sm text-gray-400">Kinetic</span></li>
+                        <li><strong>Infraestructura y Redes</strong><br><span class="text-sm text-gray-400">Autodidacta</span></li>
+                    </ul>
+                </div>
+                 <!-- Languages -->
+                <div class="card p-6">
+                    <h3 class="flex items-center text-2xl font-bold text-white mb-4"><i class="fas fa-language mr-3 text-blue-400"></i>Idiomas</h3>
+                    <p class="text-gray-300"><strong>Inglés:</strong> Nivel Intermedio</p>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+</body>
+</html>
